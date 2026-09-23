@@ -19,77 +19,69 @@ body {
   padding-right: 83px;
 }
 
-header {
-  margin-top: 30px;
-}
+header {}
 
 .header-layout {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo {
+  margin-top: 20px;
   width: 200px;
   height: 60px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 18px 75px 17px 73px;
 }
 
 .menu {
+  margin-top: 33px;
   width: 820px;
   height: 34px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 5px 379px 4px 387px;
 }
 
 .button {
+  margin-top: 29px;
   width: 120px;
   height: 42px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 9px 25px 8px 26px;
 }
 
 .hero {
   background-color: #f1f1f1;
-  margin-top: 40px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin-top: 25px;
+  height: 680px;
 }
 
 .hero-layout {
   display: flex;
   gap: 30px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .hero-content {
   width: 585px;
+  margin-top: 206px;
   height: 267px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 119px 251px 123px 252px;
 }
 
 .hero-image {
   width: 585px;
+  margin-top: 79px;
   height: 520px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 241px 261px 254px 261px;
 }
 
 .grid-section {
@@ -105,9 +97,7 @@ header {
   height: 80px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 27px 278px 27px 277px;
   margin: 0 auto 40px auto;
   font-family: 'Lora', serif;
 }
@@ -123,9 +113,11 @@ header {
   height: 420px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 198px 167px 197px 168px;
+}
+
+.grid-3-cols .item:nth-child(3n+1) {
+  padding: 197px 167px 198px 168px;
 }
 
 .grid-5-cols {
@@ -139,9 +131,7 @@ header {
   height: 300px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 138px 85px 137px 86px;
 }
 
 .grid-4-cols {
@@ -155,9 +145,11 @@ header {
   height: 300px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 138px 116px;
+}
+
+.grid-4-cols .item:nth-child(odd) {
+  padding: 138px 115.5px 137px 117px;
 }
 
 .grid-section-2 {
@@ -170,13 +162,12 @@ header {
 footer {
   margin-top: 80px;
   background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-content {
-  height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 24px 649px 23px 649px;
 }
 
 @media (max-width: 768px) {
