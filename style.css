@@ -20,16 +20,16 @@ body {
 }
 
 header {
-  margin-top: 30px;
 }
 
 .header-layout {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo {
+  margin-top: 20px;
   width: 200px;
   height: 60px;
   background-color: #e2e2e2;
@@ -40,6 +40,7 @@ header {
 }
 
 .menu {
+  margin-top: 33px;
   width: 820px;
   height: 34px;
   background-color: #e2e2e2;
@@ -50,6 +51,7 @@ header {
 }
 
 .button {
+  margin-top: 29px;
   width: 120px;
   height: 42px;
   background-color: #e2e2e2;
