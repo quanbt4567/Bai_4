@@ -175,7 +175,10 @@ footer {
 }
 
 .footer-content {
-  padding: 24px 649px 23px 649px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
