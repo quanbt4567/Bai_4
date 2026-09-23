@@ -81,9 +81,7 @@ header {}
   height: 520px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 241px 261px 254px 261px;
 }
 
 .grid-section {
