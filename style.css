@@ -42,9 +42,7 @@ header {}
   height: 34px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 5px 379px 4px 387px;
 }
 
 .button {
