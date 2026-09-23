@@ -51,9 +51,7 @@ header {}
   height: 42px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 9px 25px 8px 26px;
 }
 
 .hero {
