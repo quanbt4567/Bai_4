@@ -145,11 +145,11 @@ header {}
   height: 300px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  padding: 138px 116px; /* ô 2 và 4 */
+  padding: 138px 116px;
 }
 
 .grid-4-cols .item:nth-child(odd) {
-  padding: 138px 115.5px 137px 117px; /* ô 1 và 3 */
+  padding: 138px 115.5px 137px 117px;
 }
 
 .grid-section-2 {
@@ -165,10 +165,7 @@ footer {
 }
 
 .footer-content {
-  height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 24px 649px 23px 649px;
 }
 
 @media (max-width: 768px) {
