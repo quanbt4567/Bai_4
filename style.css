@@ -97,9 +97,7 @@ header {}
   height: 80px;
   background-color: #e2e2e2;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 27px 278px 27px 277px;
   margin: 0 auto 40px auto;
   font-family: 'Lora', serif;
 }
