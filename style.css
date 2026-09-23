@@ -63,18 +63,18 @@ header {}
 .hero {
   background-color: #f1f1f1;
   margin-top: 25px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  height: 680px;
 }
 
 .hero-layout {
   display: flex;
   gap: 30px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .hero-content {
   width: 585px;
+  margin-top: 206px;
   height: 267px;
   background-color: #e2e2e2;
   border-radius: 8px;
@@ -85,6 +85,7 @@ header {}
 
 .hero-image {
   width: 585px;
+  margin-top: 79px;
   height: 520px;
   background-color: #e2e2e2;
   border-radius: 8px;
