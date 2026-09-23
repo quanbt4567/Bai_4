@@ -113,6 +113,10 @@ header {}
   height: 420px;
   background-color: #e2e2e2;
   border-radius: 8px;
+  padding: 198px 167px 197px 168px;
+}
+
+.grid-3-cols .item:nth-child(3n+1) {
   padding: 197px 167px 198px 168px;
 }
 
