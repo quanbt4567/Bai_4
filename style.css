@@ -165,6 +165,8 @@ footer {
 }
 
 .footer-content {
+  width: max-content;
+  margin: 0 auto;
   padding: 24px 649px 23px 649px;
 }
 
